@@ -150,8 +150,6 @@ class RootViewController: UITableViewController, CitiesViewControllerDelegate {
         Thread.sleep(forTimeInterval: 0.7)
         
         return cell!
-        
-    
     }
     
     let callback: callBackType = { (task: URLSessionDataTask, json: Any) -> Void in
