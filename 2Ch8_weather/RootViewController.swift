@@ -136,7 +136,6 @@ class RootViewController: UITableViewController, CitiesViewControllerDelegate {
                                 detailLabel.text = content
                             }
                             else {
-                             
                                 detailLabel.text = str
                             }
                             
